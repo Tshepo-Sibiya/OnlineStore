@@ -1,0 +1,99 @@
+.extra {
+    border: white;
+}
+
+
+
+/* Category shaded grey */
+.extra1{
+    background-color: lightgrey;
+}
+
+/* Texts that blink */
+.blink{   
+    color: red;  
+    text-align: center;  
+    animation: animate 1.8s linear infinite;  
+    }  
+    @keyframes animate{
+        0%{
+          opacity: 0;
+        }
+        50%{
+          opacity: 0.7;
+        }
+        100%{
+          opacity: 0;
+        }
+    }
+/* Texts that blink */
+.flash{
+    color: black;  
+    text-align: center;  
+    animation: animate 1.8s linear infinite;  
+    }  
+    @keyframes animate{
+        0%{
+          opacity: 0;
+        }
+        50%{
+          opacity: 0.7;
+        }
+        100%{
+          opacity: 0;
+        }
+
+}
+
+.btn {
+    border: white;
+    background-color: white;
+}    
+.btn-info{
+    border: black;
+    text-align: right;
+    background-color:white;
+    font-weight: bold;
+    font-size: larger;
+
+
+}
+/* Button changes color when mouse hovers on price */
+.btn-info:hover{
+    color: red;   
+}
+
+.btn-primary:hover{
+    color: green;
+    font-weight: bolder;
+    background-color: aquamarine;
+    border: green;
+
+}
+
+/* Images enlarge when mouse hovers on them */
+ .zoom{
+    padding: 0px;
+   
+    transition: transform .2s; /* Animation */
+
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2); /* (50% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  .btn-info1{
+    border: black;
+    text-align: right;
+    background-color:white;
+    font-weight: bold;
+    font-size: larger;
+
+
+}
+
+/* Button changes color when mouse hovers on it */
+.btn-info1:hover{
+    color: blue; 
+}

@@ -1,0 +1,187 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online store</title>
+    <!--CSS only-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="task17.css">
+</head>
+<body>
+    <!--Everything is packaged inside a container for padding-->
+    <div class="container">
+        <!--first row-->
+        <div class="row">
+            <!--columns in first row 1 up to 8-->
+          <div class="col-md-8 extra">
+          
+            <img src="Screenshot 2023-09-17 015305.jpg" height="205">
+          </div>
+          <!--columns in first row: 8 till 12-->
+          <div class="col-md-4 extra">
+
+            <!--Icons on the side-->
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+              </svg>
+              <button type="button" class="btn btn-link">Login/Register</button>
+              <br>
+            
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+              </svg>
+              <button type="button" class="btn btn-link">Shopping cart</button>
+              <br>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+              </svg>
+              <button type="button" class="btn btn-link">Contact us</button>
+
+          </div>
+
+          <!--second row starts-->
+        <div class="row">
+            <div class="col-md-2 extra1">
+              <b>Category</b><br>
+              
+                <input type="radio" id="men" name="loc"> 
+                <label for="men">Men's clothing</label><br>
+                <input type="radio" id="shoes" name="loc">
+                <label for="shoes">Shoes</label><br>
+                <input type="radio" id="acces" name="loc">
+                <label for="access">Accessories</label><br>
+                <input type="radio" id="women" name="loc"> 
+                <label for="women">Women's clothing</label><br>
+
+                <b>Search in</b><br>
+                <input type="radio"> 
+                <label>Women shoes</label><br>
+                <input type="radio"> 
+                <label for="active">Active wear</label><br>
+                <input type="radio"> 
+                <label>Sleepwear</label><br>
+                <input type="radio"> 
+                <label>Underwear</label><br>
+                <input type="radio"> 
+                <label>Jackets</label><br>
+                <input type="radio"> 
+                <label>T-shirts</label><br>
+                <input type="radio"> 
+                <label>Headwear</label><br>
+
+
+            </div>
+            <div class="col-md-4 extra">
+              <h4 style="font-weight: bold;">Casual picks</h4>
+              <img class="zoom" src="download.jpg" alt="Girl in denim" width="210"><br>
+              <button type="button" class="btn">High-waist straight leg jean </button>
+              <button type="button" class="btn-info1">R379</button> <button type="button" class="btn-primary">Add to cart</button>
+              
+              <br>
+              <img class="zoom" src="sandals.jpg" alt=""><br>
+              <button type="button" class="btn">Casual white sandals</button>
+              <button type="button" class="btn-info1">R199</button><button type="button" class="btn-primary">Add to cart</button>
+              <br>
+              <br>
+              
+
+             
+            </div>
+            <div class="col-md-6 extra">
+              <!--Season's top picks-->
+              <h3 class="flash" style="font-weight: bold;">The seasons top looks</h3><br>
+                <img class="zoom" src="imag.jpg" alt="" >
+                <img class="zoom" src="summer.jpg" alt="">
+                <br>
+                <br>
+                <img class="zoom" src="denimjacket.jpg" alt="" ><br>
+                <button type="button" class="btn">Casual ripped denim jacket</button>
+                <button type="button" class="btn-info1">R449</button> <button type="button" class="btn-primary">Add to cart</button>
+                <br>
+                <br>
+                <img class="zoom" src="anklets.jpg" alt=""><br>
+                <button type="button" class="btn">Anklets 5 piece set</button>
+                <button type="button" class="btn-info1">R89</button> <button type="button" class="btn-primary">Add to cart</button>
+                <br><br>
+              
+            </div>
+
+          <!--Third row-->
+          <div class="row">
+            <!--Column 1-4-->
+            <!--New Arrivals-->
+            <div class="col-md-4 extra">
+                <h2 style="font-weight: bold;">New Arrivals!</h2><br>
+                <img class="zoom" src="Screenshot 2023-09-13 104729.png" width="200"><br>
+                <button type="button" class="btn">Women's wide leg torn detail jeans</button>
+                <button type="button" class="btn-info1">R379</button> <button type="button" class="btn-primary">Add to cart</button>
+                <br><br>
+                <img class="zoom" src="Screenshot 2023-09-13 105000.jpg" width="200">
+              </div>
+
+            <div class=" col-md-8 extras">
+             <!--Sale items-->
+              <div style="text-align: center;">
+              <h3 class="blink" style="font-weight: bold;">FLASHING SALE!!! 25% OFF</h3><br>
+              <img class="zoom" src="Screenshot 2023-09-13 112624.jpg" width="220"><br>
+              <button type="button" class="btn">Women long red coat</button><br>
+              <button type="button" class="btn-info">R800</button> <p>Was R1400</p>
+              <button type="button" class="btn-primary">Add to cart</button>
+              <br><br><br>
+              <img class="zoom" src="Screenshot 2023-09-13 113839.jpg" width="200" height="300"><br>
+              <button type="button" class="btn">Ladies knee high boots</button><br>
+              <button type="button" class="btn-info">R599</button> <p>Was R999</p>
+              <button type="button" class="btn-primary">Add to cart</button>
+              <br><br><br>
+              
+                <img class="zoom" src="black coat.jpg" width="200"><br>
+                <button type="button" class="btn">Ladies long double-breasted black coat</button><br>
+                <button type="button" class="btn-info">R599</button> <p>Was R999</p><button type="button" class="btn-primary">Add to cart</button>
+                <br><br><br>
+            
+                <img class="zoom" src="light-grey-turtleneck.jpg" width="250" id="zoom"><br>
+                <button type="button" class="btn">Men's grey turtle neck</button><br>
+                <button type="button" class="btn-info">R159</button> <p>Was R299</p>
+                <button type="button" class="btn-primary">Add to cart</button><br><br>
+              
+              </div>
+              
+            </div>
+
+            <!--Fourth row-->
+            <!--Online form that takes customer details-->
+          <div class="row">
+            <div class="col-md-6 form">
+              <img src="Screenshot 2023-09-17 015305.jpg" alt=""><br><br>
+              
+              <h5>Contact Details</h5>
+              <form>
+              <p>Please enter your details</p>
+              <label for="name">Name</label>
+              <input type="text" placeholder="Enter your name"><br><br>
+              <label for="surname">Surname</label>
+              <input type="text"><br><br>
+              <label for="address">Address</label>
+              <input type="address" placeholder="House number and street name,surbub"><br><br>
+              <label for="email">Email</label>
+              <input type="email"><br><br>
+
+              <p>Rate your order experience:</p>
+              <select name = 'stars' id="">
+                <option value="Excellent">5-Excellent</option>
+                <option value="Great">4-Great</option>
+                <option value="Good">3-Good</option>
+                <option value="Poor">2-Poor</option>
+                <option value="Horrible">1-Horrible</option>
+              </select>
+              <br><br><p>Thank You for your response.</p>
+            <input type="submit" value="Click here to submit "><br>
+              
+            </form>
+              
+            </div>
+
+        </div>
+    
+</body>
+</html>
